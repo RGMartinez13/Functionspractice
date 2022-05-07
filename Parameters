@@ -1,0 +1,13 @@
+#Our function does a really good job of welcoming anyone who is traveling to Times Square
+#but a really poor job if they are going anywhere else. 
+#In order for us to make our function a bit more dynamic, we are going to use the concept of function parameters.
+#Function parameters allow our function to accept data as an input value. 
+#We list the parameters a function takes as input between the parentheses of a function ( ).
+
+
+def generate_trip_instructions(location):
+  print("Looks like you are planning a trip to visit " + location)
+  print("You can use the public subway system to get to " + location)
+
+
+generate_trip_instructions("Central Park")
